@@ -1,0 +1,8 @@
+{
+    "/app/main.js": "/app/main.js",
+    "/app/main.css": "/app/main.css",
+    "/home/home.css": "/home/home.css",
+    "/auth/auth.css": "/auth/auth.css",
+    "/auth/auth.js": "/auth/auth.js",
+    "/home/home.js": "/home/home.js"
+}
