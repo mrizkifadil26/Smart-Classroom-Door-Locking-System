@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <h1 class="title">
-        Add Classroom
+        Edit Lecturer
     </h1>
     
     <div class="columns">
@@ -20,7 +20,7 @@
                 <div class="field is-grouped">
                     <p class="control">
                         <a class="button is-primary">
-                            Create
+                            Edit
                         </a>
                     </p>
                     <p class="control">

@@ -3,13 +3,13 @@
 @section('content')
 
 <h1 class="title">
-    Courses
+    Lecturers
 </h1>
 
 <div>
-    <a class="button is-success is-rounded" href="/admin/courses/create">
+    <a class="button is-success is-rounded" href="/admin/lecturers/create">
         <span>
-            <i class="fas fa-plus"></i> Add Course
+            <i class="fas fa-plus"></i> Add Lecturer
         </span>
     </a>
 </div>
@@ -20,7 +20,9 @@
     <thead>
         <tr>
             <th>No.</th>
-            <th>Course</th>
+            <th>NPM</th>
+            <th>Name</th>
+            <th>Courses</th>
             <th colspan="2" class="has-text-centered">Options</th>
         </tr>
     </thead>
@@ -28,9 +30,18 @@
     <tbody>
         <tr>
             <td>1</td>
-            <td>Matematika Teknik 1</td>
+            <td>198403042009121010</td>
+            <td>Anggoro Suryo Pramudyo, M.Kom.</td>
             <td>
-                <a class="button is-info" href="/admin/courses/edit">
+                <a class="button is-warning" href="/admin/lecturers/courses">
+                    <span>
+                        <i class="fas fa-list"></i>
+                        List
+                    </span>
+                </a>
+            </td>
+            <td>
+                <a class="button is-info" href="/admin/classrooms/edit">
                     <span>
                         <i class="fas fa-pen"></i>
                         Edit

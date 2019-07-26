@@ -2,9 +2,6 @@
 
 @section('page_name', 'Login Page')
 
-@section('styles')
-@endsection
-
 @section('app')
 <section class="hero is-primary is-fullheight">
   <div class="hero-body">
@@ -53,8 +50,4 @@
     </div>
   </div>
 </section>
-@endsection
-
-@section('scripts')
-
 @endsection
