@@ -29,6 +29,7 @@ mix.webpackConfig({
  |
  */
 
+mix.setResourceRoot('../');
 mix.sass('resources/sass/app/main.scss', 'app/main.css').version();
 mix.js('resources/js/app/main.js', 'app/main.js').version();
 

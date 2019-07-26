@@ -23,6 +23,18 @@ Route::get('/admin', function () {
     return view('home.dashboard');
 });
 
-Route::get('/admin/student', function () {
-    return view('admin.users.student');
+Route::get('/admin/classrooms', function() {
+    return view('home.list.classroom.index');
+});
+
+Route::get('/admin/classrooms/create', function() {
+    return view('home.list.classroom.create');
+});
+
+Route::get('/admin/classrooms/edit', function() {
+    return view('home.list.classroom.edit');
+});
+
+Route::get('/login', function() {
+    return view('auth.login');
 });

@@ -9,7 +9,7 @@
   <!-- Main Styles -->
   <link rel="stylesheet" href="{{ asset('assets/app/main.css') }}">
   <!-- Extension Styles -->
-  @yield('stylesheets')
+  @yield('styles')
 </head>
 <body id="@yield('body_id')" class="@yield('body_class')">
   

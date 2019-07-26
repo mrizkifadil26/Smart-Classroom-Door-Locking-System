@@ -4,16 +4,28 @@
 
 @section('body_id', 'page-top')
 
+@section('styles')
+  <link rel="stylesheet" href="{{ asset('assets/home/home.css ') }}">
+@endsection
+
 @section('app')
-  
-@endsection
+<!-- Navbar -->
+@include('home.partials.navbar')
+<!-- Navbar End -->
 
-@section('stylesheets')
-  <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}">
-  @yield('addon-style')
-@endsection
-
-@section('scripts')
-  <script src="{{ asset('js/dashboard.js') }}"></script>
-  @yield('addon-script')
+<!-- Container -->
+<div class="container">
+    <div class="columns">
+        <div class="column is-3 ">
+            <!-- Sidebar -->
+            @include('home.partials.sidebar')
+            <!-- Sidebar End -->
+        </div>
+        <div class="column is-9">
+            @include('home.partials.breadcrumb')
+            @yield('content')
+        </div>
+    </div>
+</div>
+<!-- Container End -->
 @endsection
